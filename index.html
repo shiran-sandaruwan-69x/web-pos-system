@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>main form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="asserts/css/bootstrap.css">
+    <style>
+        .k1{
+            background-image: url("asserts/pic/gradienta-LeG68PrXA6Y-unsplash.jpg");
+            background-size: cover;
+            background-position-x: right;
+            background-repeat: no-repeat;
+            height: 668px;
+            filter: opacity(0.59);
+        }
+        .k2{
+            position: absolute;
+            height: max-content;
+            right: 0;
+            top: 0;
+            background-color: white;
+        }
+        .b1{
+            position: absolute;
+            top: 25px;
+
+
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        .b2{
+            position: absolute;
+            top:125px;
+            padding-left: 45px;
+            padding-right: 71px;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+
+        .b3{
+            position: absolute;
+            top: 214px;
+            padding-left: 45px;
+            padding-right: 71px;
+
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+
+        .b4{
+            position: absolute;
+          top: 305px;
+            padding-left: 45px;
+            padding-right: 71px;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+
+        .b5{
+            position: absolute;
+            top: 402px;
+            padding-left: 45px;
+            padding-right: 71px;
+
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+
+        .lg1{
+            position: absolute;
+            top: 50px;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        .lg2{
+            position: absolute;
+            top: 120px;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+
+        .sm-1{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .sm-2{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .dsh1{
+            padding-left: 90px;
+            padding-right: 90px;
+            padding-top: 40px;
+        }
+
+
+
+
+
+
+
+        .cus1{
+            padding-top: 10px;
+        }
+        .foot1{
+            padding-top: 100px;
+
+        }
+
+        .dsh2{
+            padding-top: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+<section class="container-fluid">
+    <section class="row">
+
+        <aside class="col-3 figure-img position-fixed d-none d-sm-block k1">
+
+
+            <section class="row">
+
+
+                <div class="col-12 b1">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="search" aria-label="Search">
+                        <button class="btn btn-primary d-none d-lg-block" type="submit">search</button>
+                    </form>
+
+                    <div class="lg1">
+                        <button class="btn btn-primary d-block d-lg-none " type="submit">search</button>
+                    </div>
+
+                </div>
+
+
+
+                <div class="d-grid gap-2 col-12 b2 " id="dashbordbtn">
+                    <!--                        <a href="" class="btn btn-primary active btn-lg d-none d-lg-block" role="button" data-bs-toggle="button" aria-pressed="true">home</a>-->
+                    <a class="btn btn-dark text-white d-none d-lg-block font-weight-bold">Dashbord</a>
+<!--                    <a href="index.html" id=""> <button class="btn bg-dark text-white btn-primary active btn-sm d-none d-lg-block" >home</button></a>-->
+                </div>
+                <div class="d-grid gap-2 col-12 mx-auto b3"  id="customersbtn">
+<!--                    <a href="Customer.html" > <button class="btn bg-dark text-white btn-primary active btn-sm d-none d-lg-block " >customer</button></a>-->
+                    <!--                        <a href="" class="btn btn-primary active btn-lg d-none d-lg-block" role="button" data-bs-toggle="button" aria-pressed="true">customer</a>-->
+                    <a class="btn btn-dark text-white d-none d-lg-block font-weight-bold">Customer</a>
+                </div>
+                <div class="d-grid gap-2 col-12 mx-auto b4"  id="itemsbtn">
+                    <a class="btn btn-dark text-white d-none d-lg-block font-weight-bold">Item</a>
+<!--                    <a href="orders.html"> <button class="btn bg-dark text-white btn-primary active btn-sm d-none d-lg-block" >Item</button></a>-->
+                    <!--                        <a href="orders.html" class="btn btn-primary active btn-lg d-none d-lg-block" role="button" data-bs-toggle="button" aria-pressed="true">Item</a>-->
+                </div>
+                <div class="d-grid gap-2 col-12 mx-auto b5" id="ordersbtn">
+                    <a class="btn btn-dark text-white d-none d-lg-block font-weight-bold">Orders</a>
+
+<!--                    <a href="item.html"> <button class="btn bg-dark text-white btn-primary active btn-sm d-none d-lg-block" >order</button></a>-->
+                    <!--                        <a href="item.html" class="btn btn-primary active btn-lg d-none d-lg-block" role="button" data-bs-toggle="button" aria-pressed="true">Order</a>-->
+                </div>
+
+
+            </section>
+
+
+
+        </aside>
+        <main class="col-9 d-none d-sm-block k2">
+
+            <section class="row">
+                <article class="col-12 ">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-white p-4">
+                            <h5 class="text-black h4" >Menu Item</h5>
+                            <span class="text-muted"></span>
+
+                            <ul class="" aria-labelledby="dropdownMenuButton1">
+                                <li ><a id="dashbordbtn1" class="dropdown-item" >Home</a></li>
+                                <li ><a id="customersbtn1" class="dropdown-item" >Customer</a></li>
+                                <li><a id="itemsbtn1" class="dropdown-item">Item</a></li>
+                                <li><a id="ordersbtn1" class="dropdown-item" >Order</a></li>
+                                <li><a class="dropdown-item" href="#"> <form class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="search" aria-label="Search">
+                                    <button class="btn btn-primary d-none d-lg-block" type="submit">search</button>
+                                </form></a></li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" id="dropdownMenuButton1" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+
+
+                            </button>
+                        </div>
+                    </nav>
+
+
+                </article>
+
+                <section id="dashbord">
+                    <article class="col-12 dsh1">
+
+
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="asserts/dashPic/img1.png" class="d-block w-100 bg-gradient" alt="...">
+                                    <div class="carousel-caption d-none d-md-block text-dark">
+                                        <h5>Our Responsibility</h5>
+                                        <p>We gives you to our fresh goods to out customers.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="asserts/dashPic/img3.png" class="d-block w-100 bg-gradient" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Customer Support</h5>
+                                        <p>Our goal is make our customers to give our best</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+
+                    </article>
+                    <article class="col-12 ">
+                        <div class="card-body bg-white border border-primary">
+                            <div class="container-fluid mt-4">
+                                <div id="home-tiles">
+                                    <div class="row ">
+                                        <div class="col mb-2">
+                                            <div class="card ">
+                                                <div class="card-header bg-dark text-white">Customers</div>
+                                                <div class="card-body">
+                                                    <div class="dash-tile-text text-right text-black-50"><h2>23</h2></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col mb-2">
+                                            <div class="card">
+                                                <div class="card-header bg-dark text-white ">Items</div>
+                                                <div class="card-body">
+                                                    <div class="dash-tile-text text-right text-black-50"><h2>33</h2></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col mb-2">
+                                            <div class="card">
+                                                <div class="card-header bg-dark text-white">Orders</div>
+                                                <div class="card-body">
+                                                    <div class="dash-tile-text text-right text-black-50"><h2>44</h2></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <section id="customer">
+                    <article class="col-12 cus1">
+                        <section class="row">
+                            <aside class="col-6">
+                                <div class="card">
+                                    <div class="card-header bg-dark text-white" >customer Search</div>
+                                    <div class="card-body">
+                                        <div class="form-group">
+                                            <input type="text" id="txtCid" class="form-control" placeholder="Enter customer Id">
+                                        </div>
+                                        <div class="form-group form-inline m-1">
+<!--                                            <button type="button" id="#btnCustomerSearch" class="btn btn-primary mb-2">Search</button>-->
+                                            <button type="button" id="btnSearchCustomer" class="btn btn-success m-1">search</button>
+                                            &nbsp;&nbsp;&nbsp;
+<!--                                            <select class="form-control mb-2">-->
+<!--                                                <option>Customer name :</option>-->
+<!--                                                &lt;!&ndash;                                            <option>NIC</option>&ndash;&gt;-->
+<!--                                                &lt;!&ndash;                                            <option>Tp</option>&ndash;&gt;-->
+<!--                                            </select>-->
+                                            <input type="text" id="txtCname" class="form-control m-1" placeholder="Name">
+                                            <input type="text" id="txtCaddress" class="form-control m-1" placeholder="Address">
+                                            <input type="text" id="txtCtelephone" class="form-control m-1" placeholder="Telephone No">
+                                        </div>
+                                    </div>
+                                    <div class="btn">
+                                        <button type="button" id="btnDeleteCustomer" class="btn btn-success m-1">remove</button>
+                                        <button type="button" id="btnUpdateCustomer" class="btn btn-success m-1">update</button>
+                                        <button type="button" id="btnClearCustomer" class="btn btn-dark m-1">clear</button>
+                                    </div>
+                                </div>
+
+                            </aside>
+                            <aside class="col-6 ">
+
+                                <!-- Button trigger modal -->
+                                <button type="button" onclick="clearTextFeild()" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    New Customer
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header bg-success">
+                                                <h5 class="modal-title text-white" id="exampleModalLabel">New Customer</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body bg-dark text-white">
+                                                <div class="form-group ">
+                                                    <label for="name">Customer Id :</label>
+                                                    <input id="txtCusId" type="text" class="form-control ">
+                                                    <label for="name">Customer Name :</label>
+                                                    <input id="txtCusName" type="text" class="form-control">
+                                                    <label for="name">Address :</label>
+                                                    <input id="txtCusAddress" type="text" class="form-control">
+                                                    <label for="name">Telephone No :</label>
+                                                    <input id="txtCusTelephone" type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer bg-dark text-white">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" id="btnCustomerSave" class="btn btn-primary">Save Customer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                            <aside class="col-12">
+                                <div class="col-md-12 mt-4" style="height:180px; overflow-y: scroll">
+                                    <table class="table table-bordered bg-dark text-white">
+                                        <thead style="background: #191F33">
+                                        <tr>
+                                            <th>Customer Id</th>
+                                            <th>Name</th>
+                                            <th>Address</th>
+                                            <th>Telephone</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody  class="bg-light text-dark" id="tblCustomer">
+                                        <tr>
+                                            <td>C001</td>
+                                            <td>shiran</td>
+                                            <td>panadura</td>
+                                            <td>077918704</td>
+                                        </tr>
+                                        <tr>
+                                            <td>C002</td>
+                                            <td>kamal</td>
+                                            <td>galle</td>
+                                            <td>077918708</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </aside>
+                            <aside class="col-12 foot1">
+                                <div class="footer-text btn-dark text-center">developed by Shiran Sandaruwan</div>
+                                <div class="blockquote-footer">..</div>
+                            </aside>
+                        </section>
+                    </article>
+                </section>
+
+
+
+
+
+
+
+
+                <section id="item">
+                    <article class="col-12">
+                        <article class="col-12 cus1">
+                            <section class="row">
+                                <aside class="col-6">
+                                    <div class="card">
+                                        <div class="card-header bg-dark text-white">item Search</div>
+                                        <div class="card-body">
+                                            <div class="form-group">
+                                                <input type="text" id="txtIid" class="form-control" placeholder="Enter item id">
+                                            </div>
+                                            <div class="form-group form-inline m-1">
+<!--                                                <button class="btn btn-primary mb-2">Search</button>-->
+                                                <button type="button" id="btnSearchItem" class="btn btn-success m-1">search</button>
+                                                &nbsp;&nbsp;&nbsp;
+<!--                                                <select class="form-control mb-2">-->
+<!--                                                    <option>item name :</option>-->
+<!--                                                    &lt;!&ndash;                                            <option>NIC</option>&ndash;&gt;-->
+<!--                                                    &lt;!&ndash;                                            <option>Tp</option>&ndash;&gt;-->
+<!--                                                </select>-->
+                                                    <input type="text" id="txtIname" class="form-control m-1" placeholder="name">
+                                                    <input type="text" id="txtIprice" class="form-control m-1" placeholder="price">
+                                                    <input type="text" id="txtIqty" class="form-control m-1" placeholder="quantity">
+                                            </div>
+                                        </div>
+                                        <div class="btn">
+                                            <button type="button" id="btnDeleteItem" class="btn btn-success m-1">remove</button>
+                                            <button type="button" id="btnUpdateItem"class="btn btn-success m-1">update</button>
+                                            <button type="button" id="btnClearItem"class="btn btn-dark m-1">clear</button>
+                                        </div>
+                                    </div>
+
+                                </aside>
+                                <aside class="col-6 ">
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                        New Item
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header bg-success">
+                                                    <h5 class="modal-title text-white" id="exampleModalLabel1">New Item</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body bg-dark text-white">
+                                                    <div class="form-group ">
+                                                        <label for="name">Item Id :</label>
+                                                        <input id="txtItemId" type="text" class="form-control ">
+                                                        <label for="name">Item Name :</label>
+                                                        <input id="txtItemName" type="text" class="form-control">
+                                                        <label for="name">Item Pice :</label>
+                                                        <input id="txtItemPrice" type="text" class="form-control">
+                                                        <label for="name">Item Quantity :</label>
+                                                        <input id="txtItemQty" type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer bg-dark text-white">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" id="btnItemSave"  class="btn btn-primary">Save Item</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </aside>
+                                <aside class="col-12">
+                                    <div class="col-md-12 mt-4" style="height:180px; overflow-y: scroll">
+                                        <table class="table table-bordered bg-dark text-white">
+                                            <thead style="background: #191F33">
+                                            <tr>
+                                                <th>Item Id</th>
+                                                <th>Item Name</th>
+                                                <th>Item Price</th>
+                                                <th>Quantity</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody class="bg-light text-dark" id="tblitem">
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </aside>
+                                <aside class="col-12 foot1">
+                                    <div class="footer-text btn-dark text-center">developed by Shiran Sandaruwan</div>
+                                    <div class="blockquote-footer">..</div>
+                                </aside>
+                            </section>
+                        </article>
+                    </article>
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <section id="order">
+                    <article class="col-12 dsh2">
+                        <aside class="row">
+                            <article class="col-5">
+
+                                <div class="card mb-3" style="border-color: #4caf50">
+                                    <div class="card-header bg-dark text-white">customer details</div>
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="form-group form-inline">
+                                                <label>customer id</label>
+                                                <input id="txtOCusId" type="text" class="form-control">
+<!--                                                <button  class="btn btn-danger col-12 col-sm-auto m-1">search customer</button>-->
+                                                <button type="button" id="btnOCusSearch"  class="btn btn-danger m-1">search customer</button>
+<!--                                                <select class="form-control col-12 col-xl-auto">-->
+<!--                                                    <option>1298838v</option>-->
+<!--                                                    <option>6295838v</option>-->
+<!--                                                    <option>9298838v</option>-->
+<!--                                                </select>-->
+
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label>order id</label>
+                                                <input id="txtOid" type="text" class="form-control">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label>customer name</label>
+                                                <input id="txtOCusName" type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>address :</label>
+                                                <input id="txtOCusAddress" type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>telephone :</label>
+                                                <input id="txtOCusTelephone" type="text" class="form-control">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </article>
+                            <article class="col-7">
+                                <div class="card" style="border-color: #4caf50">
+                                    <div class="card-header bg-dark text-white">.......Item List.......</div>
+                                    <div class="card-body">
+                                        <form>
+
+                                            <div class="form-group form-inline">
+
+                                                <label>Item Name :</label>
+                                                <input id="txtOItemName" type="text" class="form-control col-12 col-xl-4">
+                                                <button type="button" id="btnOItemSearch"  class="btn btn-danger m-1">search item</button>
+<!--                                                <select class="form-control">-->
+<!--                                                    <option>Rice 1kg</option>-->
+<!--                                                    <option>dull 500g</option>-->
+<!--                                                </select>-->
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label>Item Id :</label>
+                                                <input id="lblOItemId" type="text" class="form-control">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label>Item Price :</label>
+                                                <input id="txtOItemPrice" type="text" class="form-control">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label>Item Quantity :</label>
+                                                <input id="txtOItemQty" type="text" class="form-control">
+                                            </div>
+
+                                            <hr>
+                                            <div class="text-center">Order Item</div>
+                                            <hr>
+                                            <div class="form-group">
+                                                <label>Order Quantity :</label>
+                                                <input id="txtOOrderQty" type="text" class="form-control">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <button type="button" id="btnOAddToCad"  class="btn btn-danger m-1">Add To Cad</button>
+                                            </div>
+
+                                            <div class="form-group text-right m-4">
+<!--                                                <button class="btn btn-danger col-12 col-sm-auto">Place Order</button>-->
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                </div>
+                            </article>
+                        </aside>
+                    </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="col-12 m-1">
+                        <div class="bg-white card">
+                            <div class="bg-dark card-header text-white" style="font-size: 25px">
+                                .....payment.....
+                            </div>
+                            <div class="card-body bg-white text-dark">
+                                <div class="row p-2 mt-3">
+                                    <div class="form-group col-6">
+                                        <div class="col-12">
+                                            <lable>total :</lable>
+                                        </div>
+                                        <div class="col-12">
+                                            <span class="text-dark" style="font-size: 25px" id="lblTotal">0.00</span>
+                                            Rs/=
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <div class="col-12">
+                                            <lable>calculator total:</lable>
+                                        </div>
+                                        <div class="col-12">
+                                <span class="text-dark" style="font-size: 25px" id="lblSubTotal">
+                                    0.00
+                                </span>
+                                            Rs/=
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-2 mt-3">
+                                    <div class="form-group col-6">
+                                        <div class="col-12">
+                                            <lable>payment:</lable>
+                                        </div>
+                                        <div class="col-12">
+                                            <input type="number" min="0" class="form-control" id="txtPayment">
+                                            <span class="control-error" id="lblpayment"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <div class="col-12">
+                                            <lable>discount:</lable>
+                                        </div>
+                                        <div class="col-12">
+                                            <input type="number" min="0" class="form-control" id="txtDiscount">
+                                            <span class="control-error" id="lbldisount"></span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-2 mt-3">
+                                    <div class="form-group col-6">
+
+                                    </div>
+                                    <div class="form-group col-4">
+
+                                        <button id="btnPlaceOrder" type="button" class="btn btn-danger">Place Order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <article class="col-12">
+                        <div class="col-md-12 mt-4" style="height:180px; overflow-y: scroll">
+                            <table class="table table-bordered">
+                                <thead style="background: #E5F3FF">
+                                <tr>
+                                    <th scope="col">Item id</th>
+                                    <th scope="col">Item Name</th>
+                                    <th scope="col">Item Price</th>
+                                    <th scope="col">Item Qty</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                                </thead>
+                                <tbody id="tblCart" class="bg-light">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+
+
+
+                    <aside class="col-12 foot1">
+                        <div class="footer-text btn-dark text-center">developed by Shiran Sandaruwan</div>
+                        <div class="blockquote-footer">..</div>
+                    </aside>
+
+
+
+
+
+
+
+                </section>
+
+            </section>
+
+
+
+        </main>
+
+    </section>
+
+    <aside id="" class="row d-block d-sm-none">
+        <article class="col-12 sm-1">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">welcome</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a id="dashbordbtn2" class="nav-link active" aria-current="page" >Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="customersbtn2" class="nav-link active" aria-current="page" >Customer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="ordersbtn2"  class="nav-link active" aria-current="page" >Order</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="itemsbtn2" class="nav-link active" aria-current="page" >Item</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </article>
+
+        <section id="dashbord3">
+            <article class="col-12 sm-2">
+
+                <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="asserts/dashPic/img1.png" class="d-block w-100 bg-gradient" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-dark">
+                                <h5>Our Responsibility</h5>
+                                <p>We gives you to our fresh goods to out customers.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="asserts/dashPic/img3.png" class="d-block w-100 bg-gradient" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Customer Support</h5>
+                                <p>Our goal is make our customers to give our best</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+
+
+
+            </article>
+            <article class="col-12">
+                <div class="card-body bg-white border border-primary">
+                    <div class="container-fluid mt-4">
+                        <div id="home-tiles3">
+                            <div class="row ">
+                                <div class="col mb-2">
+                                    <div class="card ">
+                                        <div class="card-header bg-dark text-white">Customers</div>
+                                        <div class="card-body">
+                                            <div class="dash-tile-text text-right text-black-50"><h2>23</h2></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-2">
+                                    <div class="card">
+                                        <div class="card-header bg-dark text-white ">Items</div>
+                                        <div class="card-body">
+                                            <div class="dash-tile-text text-right text-black-50"><h2>33</h2></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-2">
+                                    <div class="card">
+                                        <div class="card-header bg-dark text-white">Orders</div>
+                                        <div class="card-body">
+                                            <div class="dash-tile-text text-right text-black-50"><h2>44</h2></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="customer3">
+            <article class="col-12 cus1">
+                <section class="row">
+                    <aside class="col-12">
+                        <div class="card">
+                            <div class="card-header bg-dark text-white">customer Search</div>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Enter customer Nic">
+                                </div>
+                                <div class="form-group form-inline m-1">
+                                    <button class="btn btn-primary mb-2">Search</button>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <select class="form-control mb-2">
+                                        <option>Customer name :</option>
+                                        <!--                                            <option>NIC</option>-->
+                                        <!--                                            <option>Tp</option>-->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <button type="button" class="btn btn-success m-1">remove</button>
+                                <button type="button" class="btn btn-success m-1">update</button>
+                                <button type="button" class="btn btn-dark m-1">clear</button>
+                            </div>
+                        </div>
+
+                    </aside>
+                    <aside class="col-12 ">
+                        <div class="modal-body bg-dark text-white">
+                            <div class="form-group ">
+                                <label for="name">Customer Nic :</label>
+                                <input id="cusTxt" type="text" class="form-control ">
+                                <label for="name">Customer Name :</label>
+                                <input id="AgeTxt" type="text" class="form-control">
+                                <label for="name">Address :</label>
+                                <input id="txtTP" type="text" class="form-control">
+                                <label for="name">Telephone No :</label>
+                                <input id="SalaryTxt" type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="modal-footer bg-dark text-white">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save Customer</button>
+                        </div>
+                    </aside>
+                    <aside class="col-12">
+                        <div class="col-md-12 mt-4" style="height:180px; overflow-y: scroll">
+                            <table class="table table-bordered bg-dark text-white">
+                                <thead style="background: #191F33">
+                                <tr>
+                                    <th>Customer Nic</th>
+                                    <th>Name</th>
+                                    <th>Address</th>
+                                    <th>Telephone</th>
+                                </tr>
+                                </thead>
+                                <tbody class="bg-light">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </aside>
+                    <aside class="col-12 foot1">
+                        <div class="footer-text btn-dark text-center">developed by Shiran Sandaruwan</div>
+                        <div class="blockquote-footer">..</div>
+                    </aside>
+                </section>
+            </article>
+        </section>
+
+        <section id="item3">
+            <article class="col-12">
+                <article class="col-12 cus1">
+                    <section class="row">
+                        <aside class="col-12">
+                            <div class="card">
+                                <div class="card-header bg-dark text-white">item Search</div>
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Enter item id">
+                                    </div>
+                                    <div class="form-group form-inline m-1">
+                                        <button class="btn btn-primary mb-2">Search</button>
+                                        &nbsp;&nbsp;&nbsp;
+                                        <select class="form-control mb-2">
+                                            <option>item name :</option>
+                                            <!--                                            <option>NIC</option>-->
+                                            <!--                                            <option>Tp</option>-->
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="btn">
+                                    <button type="button" class="btn btn-success m-1">remove</button>
+                                    <button type="button" class="btn btn-success m-1">update</button>
+                                    <button type="button" class="btn btn-dark m-1">clear</button>
+                                </div>
+                            </div>
+
+                        </aside>
+
+                        <aside class="col-12 ">
+                            <div class="modal-body bg-dark text-white">
+                                <div class="form-group ">
+                                    <label for="name">Item Id :</label>-->
+                                    <input id="A2" type="text" class="form-control ">
+                                    <label for="name">Item Name :</label>
+                                    <input id="B2" type="text" class="form-control">
+                                    <label for="name">Item Pice :</label>
+                                    <input id="C2" type="text" class="form-control">
+                                    <label for="name">Item Quantity :</label>
+                                    <input id="D2" type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="modal-footer bg-dark text-white">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save Item</button>
+                            </div>
+                        </aside>
+                        <aside class="col-12">
+                            <div class="col-md-12 mt-4" style="height:180px; overflow-y: scroll">
+                                <table class="table table-bordered bg-dark text-white">
+                                    <thead style="background: #191F33">
+                                    <tr>
+                                        <th>Item Id</th>
+                                        <th>Item Name</th>
+                                        <th>Item Price</th>
+                                        <th>Quantity</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody class="bg-light">
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </aside>
+                        <aside class="col-12 foot1">
+                            <div class="footer-text btn-dark text-center">developed by Shiran Sandaruwan</div>
+                            <div class="blockquote-footer">..</div>
+                        </aside>
+                    </section>
+                </article>
+            </article>
+        </section>
+
+        <section id="order3">
+            <article class="col-12 dsh2">
+                <aside class="row">
+                    <article class="col-12">
+
+                        <div class="card mb-3" style="border-color: #4caf50">
+                            <div class="card-header bg-dark text-white">customer details</div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group form-inline">
+                                        <label>customer nic</label>
+                                        <select class="form-control col-12 col-xl-auto">
+                                            <option>1298838v</option>
+                                            <option>6295838v</option>
+                                            <option>9298838v</option>
+                                        </select>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label>customer name</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>address :</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>telephone :</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article class="col-12">
+                        <div class="card" style="border-color: #4caf50">
+                            <div class="card-header bg-dark text-white">.......Item List.......</div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group form-inline">
+                                        <label>Item Name :</label>
+                                        <select class="form-control">
+                                            <option>Rice 1kg</option>
+                                            <option>dull 500g</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group form-inline">
+                                        <label>Item Price :</label>
+                                        <input type="text" class="form-control col-12 col-xl-4">
+                                        <label class="mt-3 mt-xl-0 ml-0 ml-xl-2">Item Quantity :</label>
+                                        <input type="text" class="form-control col-12 col-xl-3">
+                                    </div>
+                                    <hr>
+                                    <div class="text-center">Order Item</div>
+                                    <hr>
+                                    <div class="form-group">
+                                        <label>Order Quantity :</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group text-right m-4">
+                                        <button class="btn btn-danger col-12 col-sm-auto">Place Order</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        </div>
+                    </article>
+                </aside>
+            </article>
+
+
+            <div class="col-12 m-1">
+                <div class="bg-white card">
+                    <div class="bg-dark card-header text-white" style="font-size: 25px">
+                        .....payment.....
+                    </div>
+                    <div class="card-body bg-white text-dark">
+                        <div class="row p-2 mt-3">
+                            <div class="form-group col-6">
+                                <div class="col-12">
+                                    <lable>total :</lable>
+                                </div>
+                                <div class="col-12">
+                                    <span class="text-dark" style="font-size: 25px" id="lblTotal">0.00</span>
+                                    Rs/=
+                                </div>
+                            </div>
+                            <div class="form-group col-6">
+                                <div class="col-12">
+                                    <lable>calculator total:</lable>
+                                </div>
+                                <div class="col-12">
+                                <span class="text-dark" style="font-size: 25px" id="lblSubTotal">
+                                    0.00
+                                </span>
+                                    Rs/=
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row p-2 mt-3">
+                            <div class="form-group col-6">
+                                <div class="col-12">
+                                    <lable>payment:</lable>
+                                </div>
+                                <div class="col-12">
+                                    <input type="number" min="0" class="form-control" id="txtPayment">
+                                    <span class="control-error" id="lblpayment"></span>
+                                </div>
+                            </div>
+                            <div class="form-group col-6">
+                                <div class="col-12">
+                                    <lable>discount:</lable>
+                                </div>
+                                <div class="col-12">
+                                    <input type="number" min="0" class="form-control" id="txtDiscount">
+                                    <span class="control-error" id="lbldisount"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row p-2 mt-3">
+                            <div class="form-group col-6">
+
+                            </div>
+                            <div class="form-group col-4">
+
+                                <button id="btnPlaceOrder" type="button" class="btn btn-danger">Place Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <article class="col-12">
+                <div class="col-md-12 mt-4" style="height:180px; overflow-y: scroll">
+                    <table class="table table-bordered">
+                        <thead style="background: #E5F3FF">
+                        <tr>
+                            <th scope="col">Item id</th>
+                            <th scope="col">Item Name</th>
+                            <th scope="col">Item Price</th>
+                            <th scope="col">Item Qty</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                        </thead>
+                        <tbody id="tblCart" class="bg-light">
+
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+        </section>
+
+
+    </aside>
+
+</section>
+<script src="asserts/js/bootstrap.js">
+
+
+
+
+
+
+
+</script>
+<script>
+    var dashbord = document.getElementById("dashbord");
+    var customer = document.getElementById("customer");
+    var item = document.getElementById("item");
+    var order = document.getElementById("order")
+    dashbord.style.display='block';
+    customer.style.display='none';
+    item.style.display='none';
+    order.style.display='none';
+
+    var btndashbord1=document.getElementById("dashbordbtn1");
+    btndashbord1.addEventListener('click',function (){
+        dashbord.style.display='block';
+        customer.style.display='none';
+        item.style.display='none';
+        order.style.display='none';
+
+    });
+
+
+    var btndashbord=document.getElementById("dashbordbtn");
+    btndashbord.addEventListener('click',function (){
+        dashbord.style.display='block';
+        customer.style.display='none';
+        item.style.display='none';
+        order.style.display='none';
+
+    });
+
+    var btncustomer1=document.getElementById("customersbtn1");
+    btncustomer1.addEventListener('click',function (){
+        dashbord.style.display='none';
+        customer.style.display='block';
+        item.style.display='none';
+        order.style.display='none';
+
+    });
+
+
+    var btncustomer=document.getElementById("customersbtn");
+    btncustomer.addEventListener('click',function (){
+        dashbord.style.display='none';
+        customer.style.display='block';
+        item.style.display='none';
+        order.style.display='none';
+
+    });
+
+    var btnItem1=document.getElementById("itemsbtn1");
+    btnItem1.addEventListener('click',function (){
+        dashbord.style.display='none';
+        customer.style.display='none';
+        item.style.display='block';
+        order.style.display='none';
+    });
+
+
+    var btnItem=document.getElementById("itemsbtn");
+    btnItem.addEventListener('click',function (){
+        dashbord.style.display='none';
+        customer.style.display='none';
+        item.style.display='block';
+        order.style.display='none';
+    });
+
+    var btnorders1=document.getElementById("ordersbtn1");
+    btnorders1.addEventListener('click',function (){
+        dashbord.style.display='none';
+        customer.style.display='none';
+        item.style.display='none';
+        order.style.display='block';
+    });
+
+
+    var btnorders=document.getElementById("ordersbtn");
+    btnorders.addEventListener('click',function (){
+        dashbord.style.display='none';
+        customer.style.display='none';
+        item.style.display='none';
+        order.style.display='block';
+    });
+
+
+</script>
+<script>
+    var dashbord1 = document.getElementById("dashbord3");
+    var customer1 = document.getElementById("customer3");
+    var item1 = document.getElementById("item3");
+    var order1 = document.getElementById("order3")
+    dashbord1.style.display='block';
+    customer1.style.display='none';
+    item1.style.display='none';
+    order1.style.display='none';
+
+    var btndashbord1=document.getElementById("dashbordbtn2");
+    btndashbord1.addEventListener('click',function (){
+        dashbord1.style.display='block';
+        customer1.style.display='none';
+        item1.style.display='none';
+        order1.style.display='none';
+
+    });
+
+    var btncustomer1=document.getElementById("customersbtn2");
+    btncustomer1.addEventListener('click',function (){
+        dashbord1.style.display='block';
+        customer1.style.display='block';
+        item1.style.display='none';
+        order1.style.display='none';
+    });
+
+    var btnItem1=document.getElementById("itemsbtn2");
+    btnItem1.addEventListener('click',function (){
+        dashbord1.style.display='block';
+        customer1.style.display='none';
+        item1.style.display='block';
+        order1.style.display='none';
+    });
+
+    var btnorders1=document.getElementById("ordersbtn2");
+    btnorders1.addEventListener('click',function (){
+        dashbord1.style.display='block';
+        customer1.style.display='none';
+        item1.style.display='none';
+        order1.style.display='block';
+    });
+
+</script>
+
+<script src="asserts/jquery/jquery-3.6.0.min.js">
+
+</script>
+<script src="controller/CustomerController.js">
+
+
+
+</script>
+<script src="db/Db.js"></script>
+<script src="dto/CustomerDTO.js"></script>
+<script src="dto/ItemDTO.js">
+
+
+</script>
+<script src="controller/ItemController.js"></script>
+<script src="controller/OrderController.js"></script>
+<script src="dto/OrderDTO.js"></script>
+</body>
+
+
